@@ -63,6 +63,22 @@
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
         <widget class="QPushButton" name="pushButton_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #4CAF50;
+    border: 2px solid #45a049;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #45a049;
+}
+QPushButton:pressed {
+    background-color: #3d8b40;
+}</string>
+         </property>
          <property name="text">
           <string>新增</string>
          </property>
@@ -70,6 +86,22 @@
        </item>
        <item>
         <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #2196F3;
+    border: 2px solid #0b7dda;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #0b7dda;
+}
+QPushButton:pressed {
+    background-color: #0a6bc2;
+}</string>
+         </property>
          <property name="text">
           <string>匯出</string>
          </property>
@@ -77,6 +109,22 @@
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_3">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #FF9800;
+    border: 2px solid #e68900;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #e68900;
+}
+QPushButton:pressed {
+    background-color: #cc7a00;
+}</string>
+         </property>
          <property name="text">
           <string>匯入</string>
          </property>
@@ -84,6 +132,22 @@
        </item>
        <item>
         <widget class="QPushButton" name="pushButton_4">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #f44336;
+    border: 2px solid #da190b;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #da190b;
+}
+QPushButton:pressed {
+    background-color: #c41104;
+}</string>
+         </property>
          <property name="text">
           <string>結束</string>
          </property>
